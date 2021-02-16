@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Pizza Fragment -->
+    <dimen name="margin_default">10dp</dimen>
+    <dimen name="margin_fragment">20dp</dimen>
+    <dimen name="text_item_small_size">15sp</dimen>
+    <dimen name="text_item_big_size">20sp</dimen>
+    <dimen name="image_item_size">50dp</dimen>
+    <dimen name="padding_item_size">10dp</dimen>
+
+    <!-- Pizza Details Fragment -->
+    <dimen name="image_detail_size">150dp</dimen>
+    <dimen name="margin_small_details">10dp</dimen>
+    <dimen name="margin_medium_details">20dp</dimen>
+    <dimen name="margin_big_details">30dp</dimen>
+    <dimen name="margin_max_details">60dp</dimen>
+
+</resources>

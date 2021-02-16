@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Jeff Pizzas</string>
+
+    <!-- Register -->
+    <string name="username">User name</string>
+    <string name="email">Email address</string>
+    <string name="status">STATUS</string>
+    <string name="single">SINGLE</string>
+    <string name="married">MARRIED</string>
+    <string name="register">Register</string>
+    <string name="email_incorrect">Email incorrect</string>
+    <string name="username_incorrect">Username incorrect</string>
+
+    <!-- Profile -->
+    <string name="orders">ORDERS:</string>
+    <string name="save">Save</string>
+    <string name="logout">Logout</string>
+    <string name="user_updated">User updated</string>
+    <string name="discount_pizzas">Discount for pizzas</string>
+
+    <!-- Details -->
+    <string name="contents">Contents:</string>
+    <string name="do_you_want_continue">Do you want to continue with your purchase?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="order_error">Error: order not exist</string>
+
+    <!-- Order -->
+    <string name="buy">Buy</string>
+    <string name="cancel">Cancel</string>
+    <string name="total">TOTAL:</string>
+    <string name="order_empty">Order is empty</string>
+    <string name="buy_movie">Do you want to buy a movie?</string>
+
+
+
+</resources>
