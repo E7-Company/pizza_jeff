@@ -130,7 +130,7 @@ class PizzaDetailsFragment : Fragment() {
 
     private fun createButton(pizza: Pizza, price: Price): Button {
         val button = Button(context)
-        button.text = "${price.size} - ${price.price}"
+        button.text = "${price.size} - ${price.price}€"
 
         val prefs = PreferenceManager.getDefaultSharedPreferences(context)
         val userStatus = prefs.getString(USERSTATUS, UserStatus.SINGLE.name)

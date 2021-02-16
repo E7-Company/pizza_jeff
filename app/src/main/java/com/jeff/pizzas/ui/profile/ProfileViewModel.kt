@@ -56,12 +56,14 @@ class ProfileViewModel @Inject constructor(
                 val orderSizes = order.lines.filter { it.title != Constants.MOVIE }
                     .sortedWith(CompareOrderLineBySize)
 
-                val pizzas = Constants.PIZZASIZES.filter {
-                    it.value >= Constants.PIZZASIZES[orderSizes.first().price.size]!!
-                }
+                if (orderSizes.isNotEmpty()) {
+                    val pizzas = Constants.PIZZASIZES.filter {
+                        it.value >= Constants.PIZZASIZES[orderSizes.first().price.size]!!
+                    }
 
-                if (pizzas.isNotEmpty()) {
-                    _couponEvent.value = pizzas.keys
+                    if (pizzas.isNotEmpty()) {
+                        _couponEvent.value = pizzas.keys
+                    }
                 }
             }
 

@@ -32,7 +32,7 @@ class ProfileAdapter: RecyclerView.Adapter<ProfileAdapter.ProfileViewHolder>() {
     }
 
     internal fun setData(data: User) {
-        this.data = data.orders.sortedBy { it.time }
+        this.data = data.orders.sortedByDescending { it.time }
         notifyDataSetChanged()
     }
 
