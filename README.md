@@ -21,5 +21,7 @@ Libraries:
 - Glide to manage images
 - JUnit and Mockito for tests
 
+
 Data model:
+
 ![alt text](https://github.com/E7-Company/pizza_jeff/blob/master/Jeff_pizzas.png?raw=true)
